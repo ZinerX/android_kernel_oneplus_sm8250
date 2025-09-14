@@ -32,5 +32,5 @@ jobs:
           aosp-gcc: false
           other-gcc32-url: https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
           other-gcc64-url: https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
-          other-clang-url: https://github.com/kdrag0n/proton-clang
+          other-clang-url: https://github.com/kdrag0n/proton-clang/archive/refs/tags/20210522.tar.gz
           
