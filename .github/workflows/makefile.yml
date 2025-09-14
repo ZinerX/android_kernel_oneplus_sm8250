@@ -19,7 +19,6 @@ jobs:
           kernel-branch: oneplus/sm8250_u_14.0.0_op9r
           config: lito_perf_defconfig
           arch: arm64
-          aosp-gcc: true
           aosp-clang: true
           ksu: true
           ksu-version: v0.9.5
@@ -31,3 +30,7 @@ jobs:
           vendor-url: https://github.com/OnePlusOSS/android_kernel_modules_and_devicetree_oneplus_sm8250
           vendor-dir: vendor
           vendor-branch: oneplus/sm8250_u_14.0.0_op9r
+          aosp-gcc: false
+          other-gcc32-url: https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
+          other-gcc64-url: https://android.googlesource.com/platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9
+          
