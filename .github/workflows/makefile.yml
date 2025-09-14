@@ -30,4 +30,5 @@ jobs:
           vendor-url: https://github.com/OnePlusOSS/android_kernel_modules_and_devicetree_oneplus_sm8250
           vendor-dir: vendor
           vendor-branch: oneplus/sm8250_u_14.0.0_op9r
+          aosp-gcc: true
           
